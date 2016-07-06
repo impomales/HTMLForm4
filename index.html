@@ -8,7 +8,8 @@
     
     <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
 
-    
+        <link rel="stylesheet" href="css/style.css">
+
     
     
     
@@ -17,8 +18,107 @@
   <body>
 
     <div class="container">
-  <div class="row"></div>
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="leftDiv">
+        <h1>
+          INSTRUCTIONS
+        </h1>
+        <ol>
+          <li>
+            <p>
+              <u>Leave No Blanks</u> - Where appropriate code items:
+              <br><br>
+              <b>X = question not answered</b>
+              <br>
+              <b>N = questions not applicable</b>
+              <br><br>
+              Use <u>only</u> one character per item.
+            </p>
+          </li> 
+          <li>
+            <p>
+              Item numbers <u>underlined</u> are to be asked at follow-up, Items with an asterisk are cumulative and should be rephrased at follow-up (see Manual).
+            </p>
+          </li>
+          <li>
+            <p>
+              Space is provided after sections for additional comments.
+            </p>
+          </li>
+        </ol>
+      </div>
+      <!-- end leftDiv -->
+    </div>
+    <!-- end col-xs-4 leftDiv -->
+    <div class="col-xs-4">
+      <div class="centerDiv">
+        <h1>SEVERITY RATINGS</h1>
+        <p>
+          The severity ratings are interviewer estimates of the patient's need for additional treatment in each area. The scales range from 0 (no treatment necessary) to 9 (treatment needed to intervene in life-threatening situation).
+          <br><br>
+          Each ratings is based upon the patient's history of problem symptoms, present condition and subjective assessment of his treatment needs in a given area. For a detailed description of severity ratings' deprivation procedures and conventions, see manual. <b>Note:</b> These severity ratings are optional.
+        </p>
+      </div>
+    </div>
+    <!-- end col-xs-4 centerDiv -->
+    <div class="col-xs-4">
+      <div class="rightDiv">
+        <h1 id="AddictionSeverityIndex">
+          <b>Addiction Severity Index</b>
+          <br>
+          <em>Fifth Edition</em>
+        </h1>
+        <h2>
+          SUMMARY OF PATIENTS RATING SCALE
+        </h2>
+        <ul id="ratingScale">
+          <li>
+            <p>0 - Not at all</p>
+          </li>
+          <li>
+            <p>1 - Slightly</p>
+          </li>
+          <li>
+            <p>2 - Moderately</p>
+          </li>
+          <li>
+            <p>3 - Considerably</p>
+          </li>
+          <li>
+            <p>4 - Extremely</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- end col-xs-4 rightDiv -->
+  </div>
+  <!-- end row -->
+  <div class="row">
+    <div class="col-xs-4">
+      <div class="leftDiv">
+        <div id="generalInfoLeft">
+          <ul class="questionList">
+            <li>
+              <p>G1. I.D Number<p>
+              <table>
+                <tr>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+              </table>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-4"></div>
+    <div class="col-xs-4"></div>
+  </div>
 </div>
+<!-- end container -->
     
     
     
