@@ -18,61 +18,59 @@
   <body>
 
     <div class="container-fluid">
-  <div class="row">
-    <div class="col-xs-4">
-      <div class="leftDiv">
-        <h1>
+  <div class="row rowSameHeight">
+    <div class="col-xs-4 leftDiv sameHeight">
+
+      <h1>
           INSTRUCTIONS
-        </h1>
-        <ol>
-          <li>
-            <p>
-              <u>Leave No Blanks</u> - Where appropriate code items:
-              <br><br>
-              <b>X = question not answered</b>
-              <br>
-              <b>N = questions not applicable</b>
-              <br><br>
-              Use <u>only</u> one character per item.
-            </p>
-          </li> 
-          <li>
-            <p>
-              Item numbers <u>underlined</u> are to be asked at follow-up, Items with an asterisk are cumulative and should be rephrased at follow-up (see Manual).
-            </p>
-          </li>
-          <li>
-            <p>
-              Space is provided after sections for additional comments.
-            </p>
-          </li>
-        </ol>
-      </div>
+      </h1>
+      <br>
+      <ol>
+        <li>
+          <p>
+            <u>Leave No Blanks</u> - Where appropriate code items:
+            <br><br>
+            <b>X = question not answered</b>
+            <br>
+            <b>N = questions not applicable</b>
+            <br><br> Use <u>only</u> one character per item.
+          </p>
+        </li>
+        <li>
+          <p>
+            Item numbers <u>underlined</u> are to be asked at follow-up, Items with an asterisk are cumulative and should be rephrased at follow-up (see Manual).
+          </p>
+        </li>
+        <li>
+          <p>
+            Space is provided after sections for additional comments.
+          </p>
+        </li>
+      </ol>
       <!-- end leftDiv -->
     </div>
     <!-- end col-xs-4 leftDiv -->
-    <div class="col-xs-4">
-      <div class="centerDiv">
-        <h1>SEVERITY RATINGS</h1>
-        <p>
-          The severity ratings are interviewer estimates of the patient's need for additional treatment in each area. The scales range from 0 (no treatment necessary) to 9 (treatment needed to intervene in life-threatening situation).
-          <br><br>
-          Each ratings is based upon the patient's history of problem symptoms, present condition and subjective assessment of his treatment needs in a given area. For a detailed description of severity ratings' deprivation procedures and conventions, see manual. <b>Note:</b> These severity ratings are optional.
-        </p>
-      </div>
+    <div class="col-xs-4 centralDiv sameHeight">
+      <h1>SEVERITY RATINGS</h1>
+      <br>
+      <p>
+        The severity ratings are interviewer estimates of the patient's need for additional treatment in each area. The scales range from 0 (no treatment necessary) to 9 (treatment needed to intervene in life-threatening situation).
+        <br><br> Each ratings is based upon the patient's history of problem symptoms, present condition and subjective assessment of his treatment needs in a given area. For a detailed description of severity ratings' deprivation procedures and conventions,
+        see manual. <b>Note:</b> These severity ratings are optional.
+      </p>
     </div>
     <!-- end col-xs-4 centerDiv -->
-    <div class="col-xs-4">
-      <div class="rightDiv">
-        <h1 id="AddictionSeverityIndex">
+    <div class="col-xs-4 rightDiv sameHeight">
+      <h1 id="AddictionSeverityIndex">
           <b>Addiction Severity Index</b>
           <br>
           <em>Fifth Edition</em>
-        </h1>
-        <h2>
+      </h1>
+      <h2>
           SUMMARY OF PATIENTS RATING<br> SCALE
-        </h2>
-        <ul id="ratingScale">
+      </h2>
+      <div id="ratingScale">
+        <ul>
           <li>
             <p>0 - Not at all</p>
           </li>
@@ -95,180 +93,262 @@
   </div>
   <!-- end row -->
   <div class="rowLine"></div>
-  <div class="row">
-    <div class="col-xs-4">
-      <div class="leftDiv">
-        <div id="generalInfoLeft">
-          <ul class="questionList">
-            <li>
-              <p>G1. I.D NUMBER<p>
-              <table>
-                <tr>
-                  <td class="formCell"></td>
-                  <td class="formCell"></td>
-                  <td class="formCell"></td>
-                  <td class="formCell"></td>
-                </tr>
-              </table>
-            </li>
-            <li>
-              <p>G2. LAST 4 DIGITS<br> OF SSN</p>
-              <table>
-                <tr>
-                  <td class="formCell"></td>
-                  <td class="formCell"></td>
-                  <td class="formCell"></td>
-                  <td class="formCell"></td>
-                </tr>
-              </table>
-            </li>
-            <li>
-              <p>G3. PROGRAM NUMBER</p>
-              <table>
-                <tr>
-                  <td class="formCell"></td>
-                  <td class="formCell"></td>
-                  <td class="formCell"></td>
-                </tr>
-              </table>
-            </li>
-            <li>
-              <p>G4. DATE OF<br>ADMISSION</p>
-              <table>
-                <tr>
-                  <td>
-                    <table>
-                      <tr>
-                        <td class="formCell"></td>
-                        <td class="formCell"></td>
-                      </tr>
-                    </table>
-                    <h4>Mth.</h4>
-                  </td>
-                  <td>
-                    <table>
-                      <tr>
-                        <td class="formCell"></td>
-                        <td class="formCell"></td>
-                      </tr>
-                    </table>
-                    <h4>Day</h4>
-                  </td>
-                  <td>
-                    <table>
-                      <tr>
-                        <td class="formCell"></td>
-                        <td class="formCell"></td>
-                      </tr>
-                    </table>
-                    <h4>Year</h4>
-                  </td>
-                </tr>
-              </table>
-            </li>
-            <li>
-              <p>G5. DATE OF<br>INTERVIEW</p>
-              <table>
-                <tr>
-                  <td>
-                    <table>
-                      <tr>
-                        <td class="formCell"></td>
-                        <td class="formCell"></td>
-                      </tr>
-                    </table>
-                    <h4>Mth.</h4>
-                  </td>
-                  <td>
-                    <table>
-                      <tr>
-                        <td class="formCell"></td>
-                        <td class="formCell"></td>
-                      </tr>
-                    </table>
-                    <h4>Day</h4>
-                  </td>
-                  <td>
-                    <table>
-                      <tr>
-                        <td class="formCell"></td>
-                        <td class="formCell"></td>
-                      </tr>
-                    </table>
-                    <h4>Year</h4>
-                  </td>
-                </tr>
-              </table>
-            </li>
-            <li>
-              <p>G6. TIME BEGUN</p>
-              <table>
-                <tr>
-                  <td>
-                    <table>
-                      <tr>
-                        <td class="formCell"></td>
-                        <td class="formCell"></td>
-                      </tr>
-                    </table>
-                  </td>
-                  <td><p><b>:</b></p></td>
-                  <td>
-                    <table>
-                      <tr>
-                        <td class="formCell"></td>
-                        <td class="formCell"></td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </li>
-            <li>
-              <p>G6. TIME ENDED</p>
-              <table>
-                <tr>
-                  <td>
-                    <table>
-                      <tr>
-                        <td class="formCell"></td>
-                        <td class="formCell"></td>
-                      </tr>
-                    </table>
-                  </td>
-                  <td><p><b>:</b></p></td>
-                  <td>
-                    <table>
-                      <tr>
-                        <td class="formCell"></td>
-                        <td class="formCell"></td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </li>
-            <li>
-              <p>G8. CLASS:</p>
-              <table>
-                <tr>
-                  <td class="formCell"></td>
-                </tr>
-              </table>
-              <ul class="smallList">
-                <li><p>1 - Intake</p></li>
-                <li><p>2 - Follow-up</p></li>
-              </ul>
-            </li>
-          </ul>
-          <!-- end questionList -->
-        </div>
-        <!-- end generalInfoLeft -->
+  <div class="row rowSameHeight">
+    <div class="col-xs-4 leftDiv sameHeight">
+      <div id="generalInfoLeft">
+        <ul class="questionList">
+          <li>
+            <p>G1. I.D NUMBER
+              <p>
+                <table>
+                  <tr>
+                    <td class="formCell">1</td>
+                    <td class="formCell">2</td>
+                    <td class="formCell">3</td>
+                    <td class="formCell">4</td>
+                  </tr>
+                </table>
+          </li>
+          <li>
+            <p>G2. LAST 4 DIGITS</p><br>
+            <p style="padding-left: 30px">OF SSN</p>
+            <table>
+              <tr>
+                <td class="formCell"></td>
+                <td class="formCell"></td>
+                <td class="formCell"></td>
+                <td class="formCell"></td>
+              </tr>
+            </table>
+          </li>
+          <li>
+            <p>G3. PROGRAM NUMBER</p>
+            <table>
+              <tr>
+                <td class="formCell"></td>
+                <td class="formCell"></td>
+                <td class="formCell"></td>
+              </tr>
+            </table>
+          </li>
+          <li>
+            <p>G4. DATE OF</p><br>
+            <p style="padding-left: 30px">ADMISSION</p>
+            <table>
+              <tr>
+                <td>
+                  <table>
+                    <tr>
+                      <td class="formCell"></td>
+                      <td class="formCell"></td>
+                    </tr>
+                  </table>
+                  <h4>Mth.</h4>
+                </td>
+                <td>
+                  <table>
+                    <tr>
+                      <td class="formCell"></td>
+                      <td class="formCell"></td>
+                    </tr>
+                  </table>
+                  <h4>Day</h4>
+                </td>
+                <td>
+                  <table>
+                    <tr>
+                      <td class="formCell"></td>
+                      <td class="formCell"></td>
+                    </tr>
+                  </table>
+                  <h4>Year</h4>
+                </td>
+              </tr>
+            </table>
+          </li>
+          <li>
+            <p>G5. DATE OF</p><br>
+            <p style="padding-left: 30px">INTERVIEW</p>
+            <table>
+              <tr>
+                <td>
+                  <table>
+                    <tr>
+                      <td class="formCell"></td>
+                      <td class="formCell"></td>
+                    </tr>
+                  </table>
+                  <h4>Mth.</h4>
+                </td>
+                <td>
+                  <table>
+                    <tr>
+                      <td class="formCell"></td>
+                      <td class="formCell"></td>
+                    </tr>
+                  </table>
+                  <h4>Day</h4>
+                </td>
+                <td>
+                  <table>
+                    <tr>
+                      <td class="formCell"></td>
+                      <td class="formCell"></td>
+                    </tr>
+                  </table>
+                  <h4>Year</h4>
+                </td>
+              </tr>
+            </table>
+          </li>
+          <li>
+            <p>G6. TIME BEGUN</p>
+            <table>
+              <tr>
+                <td>
+                  <table>
+                    <tr>
+                      <td class="formCell"></td>
+                      <td class="formCell"></td>
+                    </tr>
+                  </table>
+                </td>
+                <td>
+                  <p><b>:</b></p>
+                </td>
+                <td>
+                  <table>
+                    <tr>
+                      <td class="formCell"></td>
+                      <td class="formCell"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </li>
+          <li>
+            <p>G6. TIME ENDED</p>
+            <table>
+              <tr>
+                <td>
+                  <table>
+                    <tr>
+                      <td class="formCell"></td>
+                      <td class="formCell"></td>
+                    </tr>
+                  </table>
+                </td>
+                <td>
+                  <p><b>:</b></p>
+                </td>
+                <td>
+                  <table>
+                    <tr>
+                      <td class="formCell"></td>
+                      <td class="formCell"></td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </li>
+          <li>
+            <p>G8. CLASS:</p>
+            <table>
+              <tr>
+                <td class="formCell"></td>
+              </tr>
+            </table>
+            <ul class="smallList">
+              <li>
+                <p>1 - Intake</p>
+              </li>
+              <li>
+                <p>2 - Follow-up</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>G9. CONTACT CODE:</p>
+            <table>
+              <tr>
+                <td class="formCell"></td>
+              </tr>
+            </table>
+            <ul class="smallList">
+              <li>
+                <p>1 - In Person</p>
+              </li>
+              <li>
+                <p>2 - Phone</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>G10. GENDER:</p>
+            <table>
+              <tr>
+                <td class="formCell"></td>
+              </tr>
+            </table>
+            <ul class="smallList">
+              <li>
+                <p>1 - Male</p>
+              </li>
+              <li>
+                <p>2 - Female</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>G11. INTERVIEWER</p><br>
+            <p style="padding-left: 40px">CODE NUMBER</p>
+            <table>
+              <tr>
+                <td class="formCell"></td>
+                <td class="formCell"></td>
+              </tr>
+            </table>
+          </li>
+          <li>
+            <p>G12. SPECIAL:</p>
+            <table>
+              <tr>
+                <td class="formCell"></td>
+              </tr>
+            </table>
+            <ul class="smallList">
+              <li><p>1 - Patient terminated</p></li>
+              <li><p>2 - Patient refused</p></li>
+              <li><p>3 - Patient unable to respond</p></li>
+            </ul>
+          </li>
+        </ul>
+        <!-- end questionList -->
       </div>
-      <!-- end leftDiv -->
+      <!-- end generalInfoLeft -->
     </div>
-    <div class="col-xs-4"></div>
-    <div class="col-xs-4"></div>
+    <!-- end leftDiv -->
+    <div class="col-xs-4 centralDiv sameHeight">
+      <h2 style="margin: 0px">GENERAL INFORMATION</h2>
+      <br>
+      <ul class="questionList">
+        <li>
+          <p>NAME</p>
+          <div class="formInputLine" style="width: 70%">name</div>
+        </li>
+        <li>
+          <p>CURRENT ADDRESS</p>
+          <div class="formInputLine" style="width: 50%"></div>
+        </li>
+      </ul>
+    </div>
+    <!-- end centralDiv -->
+    <div class="col-xs-4 rightDiv sameHeight">
+      <h2 style="margin: 0px">ADDITIONAL TEST RESULTS</h2>
+    </div>
+    <!-- end rightDiv -->
   </div>
   <!-- end row -->
   <div class="rowLine"></div>
